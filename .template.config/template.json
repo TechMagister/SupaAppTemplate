@@ -1,0 +1,16 @@
+﻿{
+  "author": "Arnaud Fernandes",
+  "classifications": [ "Web" ],
+  "name": "Tech Magister Web",
+  "identity": "TechMagister.StarterWeb",
+  "shortName": "tmweb",
+  "tags": {
+    "language": "C#",
+    "type": "solution"
+  },
+  "sourceName": "TechMagister.Starter",
+  "preferNameDirectory": true,
+  "symbols": {
+    
+  }
+}

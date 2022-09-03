@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApi", "src\WebApi\WebApi.csproj", "{DC9123D3-A147-43EE-BB56-E33AF6D340B6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{DC42136B-6231-4C44-AC59-5C21EFF469A2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{27505F99-7520-4C8F-8BD8-43FBFAAC8266}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Auth", "src\Auth\Auth.csproj", "{F0F5166D-24C0-4642-ACA9-C505621B431E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SupabaseAuth", "..\TechMagister\supabase-client\src\SupabaseAuth\SupabaseAuth.csproj", "{9B8A8160-40B6-4037-A9B3-E1A82FFB2134}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DC9123D3-A147-43EE-BB56-E33AF6D340B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC9123D3-A147-43EE-BB56-E33AF6D340B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC9123D3-A147-43EE-BB56-E33AF6D340B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC9123D3-A147-43EE-BB56-E33AF6D340B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F0F5166D-24C0-4642-ACA9-C505621B431E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0F5166D-24C0-4642-ACA9-C505621B431E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0F5166D-24C0-4642-ACA9-C505621B431E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F0F5166D-24C0-4642-ACA9-C505621B431E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B8A8160-40B6-4037-A9B3-E1A82FFB2134}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B8A8160-40B6-4037-A9B3-E1A82FFB2134}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B8A8160-40B6-4037-A9B3-E1A82FFB2134}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B8A8160-40B6-4037-A9B3-E1A82FFB2134}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DC9123D3-A147-43EE-BB56-E33AF6D340B6} = {DC42136B-6231-4C44-AC59-5C21EFF469A2}
+		{F0F5166D-24C0-4642-ACA9-C505621B431E} = {DC42136B-6231-4C44-AC59-5C21EFF469A2}
+	EndGlobalSection
+EndGlobal

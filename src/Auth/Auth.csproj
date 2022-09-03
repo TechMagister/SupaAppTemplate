@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <AssemblyName>TechMagister.Starter.Auth</AssemblyName>
+        <RootNamespace>TechMagister.Starter.Auth</RootNamespace>
+        <LangVersion>default</LangVersion>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\..\..\TechMagister\supabase-client\src\SupabaseAuth\SupabaseAuth.csproj" />
+    </ItemGroup>
+
+</Project>
