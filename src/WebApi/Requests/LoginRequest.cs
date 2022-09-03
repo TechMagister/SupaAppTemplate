@@ -8,7 +8,7 @@ public class LoginRequest
 {
     [Required]
     public string? Password { get; init; }
-    
+
     [Required]
     public string? Email { get; init; }
 }
